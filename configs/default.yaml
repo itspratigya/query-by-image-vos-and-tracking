@@ -1,0 +1,24 @@
+# Global Configuration for Query-by-Image-VOS-and-Tracking Pipeline
+
+project:
+  name: "qbi_sam2_tracking"
+  seed: 42
+
+paths:
+  data_dir: "data"
+  output_dir: "outputs"
+  davis_root: "data/DAVIS"
+  mose_root: "data/MOSE"
+
+sampling:
+  fps: 5                       # Frame extraction rate
+  max_frames: null             # Limit total processed frames per video (null for all)
+
+models:
+  sam2_checkpoint: "checkpoints/sam2_hiera_large.pt"
+  sam2_model_cfg: "sam2_hiera_l.yaml"
+  dinov2_model_name: "dinov2_vitb14"  # Options: dinov2_vits14, dinov2_vitb14, dinov2_vitl14
+
+retrieval:
+  top_k: 5                     # Top K candidate frames to return
+  similarity_threshold: 0.6    # Minimum cosine similarity confidence score

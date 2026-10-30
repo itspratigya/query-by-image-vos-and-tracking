@@ -1,0 +1,2 @@
+Contains centralized setup files to avoid hardcoding parameters inside Python scripts.
+deafult.yaml : contains runtime-parameters!

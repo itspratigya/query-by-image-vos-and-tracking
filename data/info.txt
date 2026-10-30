@@ -1,0 +1,3 @@
+Stores large raw benchmark datasets such as DAVIS and MOSE.
+data/ must be added to .gitignore file as -
+large video files and image datasets should never be committed to Git.

@@ -1,0 +1,2 @@
+Add files/code for command-line executable entry points
+that import functions from src/ to run full processing pipelines.

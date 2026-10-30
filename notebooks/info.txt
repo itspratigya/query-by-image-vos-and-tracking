@@ -1,0 +1,2 @@
+Contains Jupyter notebooks (.ipynb) used exclusively for quick prototyping, visual sanity checks,
+and plotting qualitative search/tracking results.

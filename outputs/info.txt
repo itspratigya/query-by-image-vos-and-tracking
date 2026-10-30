@@ -1,0 +1,1 @@
+Stores all intermediate results and temporary state generated during experimentation.

@@ -1,0 +1,2 @@
+sequence,initialization,frames,initial_iou,mean_j,mean_f,j_and_f,tracking_fps,propagation_time_sec
+koala,ground_truth_derived_box,100,0.9566411151557317,0.9473567634188421,0.6384879720188475,0.7929223677188448,1.9717706811494902,50.71583676338196
